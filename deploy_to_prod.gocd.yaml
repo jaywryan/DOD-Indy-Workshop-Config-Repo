@@ -27,7 +27,7 @@ pipelines:
                   EnvironmentVariablePrefix: ''
                   SkipImagePulling: 'true'
                 artifact_id: bulletin-board
-                pipeline: deploy_to_uat
+                pipeline: deploy_to_uat/build_and_package
                 stage: build_stage
                 job: build_image
                 artifact_origin: external
