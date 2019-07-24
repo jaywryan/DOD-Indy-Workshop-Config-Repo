@@ -14,9 +14,6 @@ pipelines:
       uat:
         pipeline: deploy_to_uat
         stage: approval_stage
-      SourceCodeRepo:
-        git: https://github.com/jaywryan/node-bulletin-board
-        shallow_clone: false
     stages:
     - deploy_to_prod:
         approval:
