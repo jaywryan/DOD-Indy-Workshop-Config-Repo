@@ -36,7 +36,7 @@ pipelines:
         approval:
           type: success
         jobs:
-          build_image:
+          test_image:
             elastic_profile_id: demo-app
             tasks:
             - exec:
